@@ -261,6 +261,7 @@ export const layoutClasses = {
 
 
 // TASK ITEM
+
 // Menu options for task actions
 export const MENU_OPTIONS = [
     { action: "edit", label: "Edit Task", icon: <Edit2 size={14} className="text-purple-600" /> },
@@ -285,7 +286,3 @@ export const TI_CLASSES = {
     dateRow: "flex items-center gap-1.5 text-xs font-medium whitespace-nowrap",
     createdRow: "flex items-center gap-1.5 text-xs text-gray-400 whitespace-nowrap",
 }
-// APP.JSX
-export const getUser = (data) => ({
-  avatar: `https://ui-avatars.com/api/?name=${encodeURIComponent(data?.name || 'User')}&background=random`
-});

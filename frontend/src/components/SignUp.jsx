@@ -83,4 +83,4 @@ const SignUp = ({ onSwitchMode }) => {
   )
 }
 
-export default SignUp;
+export default SignUp
